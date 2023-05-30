@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 20px;
+    color: aliceblue;
+ 
+
+}
+.navbar {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.background{
+    background-repeat: no-repeat, repeat;
+    background-image: url(pasta.png);
+    background-size: 100% 837px;
+    max-height: 1300px;
+
+
+}
+
+.form{
+    
+    top: 268px;
+    right: 545px;
+    color: #ffffff;
+    margin-top: 129px;
+    margin-left: 100px;
+    font-size: 20px;
+
+}
+input[type=submit] {
+    width: 109px;
+    background-color: #ffffff;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 47px;
+    
+  }
+  input {
+    width: 350px;
+    height: 30px;
+      display: grid;
+    }
+    select{
+        width: 350px;
+        height: 40px
+    }
+
+.table{
+    color: #ffffff;
+    margin-top: -273px;
+    margin-left: 612px;
+    border: solid;
+    width: 402px;
+
+}
+
+.table tbody tr td {
+    text-align: center;
+}
+
+
+.footer{
+    height: 20px;
+    color: aliceblue;
+    gap: 20px;
+    display: flex;
+    gap: 13px;
+    margin-top: 360px;
+    margin-left: 35px;
+    position: fixed;
+
+}
+.footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
